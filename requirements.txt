@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+
+# Database
+sqlalchemy
+psycopg2-binary
+
+# Environment & config
+python-dotenv
+
+# Auth (basic, extensible later)
+python-jose[cryptography]
+passlib[bcrypt]
+
+# CORS (frontend ↔ backend)
+fastapi[all]
